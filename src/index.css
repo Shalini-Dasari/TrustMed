@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #20B2AA;
+  --secondary: #5F9EA0;
+  --accent: #B0E0E6;
+  --background: #F0F8FF;
+}
+
+body {
+  background-color: var(--background);
+  font-family: 'Inter', sans-serif;
+}
+
+.gradient-card {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+}
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
